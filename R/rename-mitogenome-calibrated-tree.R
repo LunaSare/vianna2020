@@ -54,7 +54,7 @@ write(csv, file = "data/tip_labels.csv")
 
 tips <- read.csv(file="data/tip_labels.csv", header = TRUE)
 
-head(tips, 10)
+head(tips[,1], 10)
 
 # Renaming the tips
 
