@@ -13,9 +13,30 @@ Original data downloaded on April 7, 2021.
 Downloaded from https://datadryad.org/stash/dataset/doi:10.5061/dryad.pk0p2ngj2
 
 ### `data` folder
-Renamed trees in newick format.
+Renamed tree in newick format.
 
-For example:
+Chronogram in `data-raw/mitogenome_calibrated.tree` with original tip labels:
 
-Chronogram in `data-raw/mitogenome_calibrated.tree`
+[1]                 AMNH17808 
+[2]                AMNH211990 
+[3]    G11_Eudyptes_schlegeli 
+[4] G12_Eudyptes_chrysolophus 
+[5] G17_Eudyptes_chrysolophus 
+[6]   G13_Eudyptes_chrysocome 
+[7]    G14_Eudypteschrysocome 
+[8]       NC_0081381_Eudyptes 
+[9]      G15_Eudyptesmoseleyi 
+[10]                 MVZ149367 
 
+Was renamed in `data/mitogenome_calibrated-renamed.tree` with:
+
+[1]                 AMNH17808
+[2]                AMNH211990
+[3]    Eudyptes_schlegeli_G11
+[4] Eudyptes_chrysolophus_G12
+[5] Eudyptes_chrysolophus_G17
+[6]   Eudyptes_chrysocome_G13
+[7]   Eudyptes_chrysocome_G14
+[8]       Eudyptes_NC_0081381
+[9]     Eudyptes_moseleyi_G15
+[10]                MVZ149367
